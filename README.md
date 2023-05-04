@@ -1,9 +1,10 @@
 
 # <b> Cym702 (출시)</b>
-
+https://play.google.com/store/apps/details?id=com.yellosis.app&hl=en-KR
 
 <h2 id="0">
     <b>💁 Team  introduce </b>
+    
 </h2>
 
 | Part                 | Name                                                |
