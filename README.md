@@ -2,6 +2,9 @@
 # <b> Cym702 (출시)</b>
 https://play.google.com/store/apps/details?id=com.yellosis.app&hl=en-KR
 
+해당 코드는 회사소유로 올리지 못합니다. 
+따라서 구조를 올리겠습니다. 
+
 <h2 id="0">
     <b>💁 Team  introduce </b>
     
