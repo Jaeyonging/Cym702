@@ -1,0 +1,88 @@
+├── Analyzer.kt
+├── CvFrame.kt
+├── YellosisApplication.kt
+├── base
+│   ├── BaseActivity.kt
+│   ├── BaseDialogFragment.kt
+│   ├── BaseFragment.kt
+│   └── BaseViewModel.kt
+├── data
+│   ├── local
+│   │   ├── AuthLocalDataSource.kt
+│   │   └── AuthLocalDataSourceImpl.kt
+│   ├── remote
+│   │   ├── AnalysisRemoteDataSource.kt
+│   │   ├── AnalysisRemoteDataSourceImpl.kt
+│   │   ├── AuthRemoteDataSource.kt
+│   │   ├── AuthRemoteDataSourceImpl.kt
+│   │   └── api
+│   │       ├── YellosisService.kt
+│   │       ├── request
+│   │       │   └── ValidateSnsAccountRequest.kt
+│   │       └── response
+│   │           ├── AnalyzeImageErrorResponse.kt
+│   │           ├── AnalyzeImageResponse.kt
+│   │           ├── AnalyzePortableResponse.kt
+│   │           ├── ApiResponse.kt
+│   │           ├── ProgressRequestBody.kt
+│   │           └── ValidateSnsAccountResponse.kt
+│   └── repository
+│       ├── AnalysisRepository.kt
+│       ├── AnalysisRepositoryImpl.kt
+│       ├── AuthRepository.kt
+│       └── AuthRepositoryImpl.kt
+├── di
+│   ├── AppModule.kt
+│   ├── DataSourceModule.kt
+│   └── NetworkModule.kt
+├── dialog
+│   └── AnalyzingDialog.kt
+├── ext
+│   ├── ActivityExt.kt
+│   ├── BitmapExt.kt
+│   ├── FragmentManagerExt.kt
+│   └── PermissionExt.kt
+├── fcm
+│   └── YellosisMessagingService.kt
+├── model
+│   ├── Account.kt
+│   ├── BleBody.kt
+│   ├── Capture.kt
+│   ├── EmailCheck.kt
+│   ├── OpenCameraMessage.kt
+│   ├── RepeatNotification.kt
+│   ├── UID.kt
+│   └── enums
+│       └── SnsType.kt
+├── receiver
+│   └── AlarmReceiver.kt
+├── service
+│   └── BluetoothLeService.kt
+├── ui
+│   ├── camera
+│   │   ├── CameraActivity.kt
+│   │   └── CameraViewModel.kt
+│   ├── device
+│   │   ├── DeviceActivity.kt
+│   │   ├── DeviceViewModel.kt
+│   │   ├── analysis
+│   │   │   ├── DeviceAnalysisFragment.kt
+│   │   │   └── DeviceAnalysisViewModel.kt
+│   │   ├── connect
+│   │   │   ├── DeviceConnectFragment.kt
+│   │   │   └── DeviceConnectViewModel.kt
+│   │   └── guide
+│   │       ├── DeviceGuideFragment.kt
+│   │       └── DeviceGuideViewModel.kt
+│   ├── main
+│   │   ├── MainActivity.kt
+│   │   └── MainViewModel.kt
+│   └── preview
+│       ├── PreviewActivity.kt
+│       ├── PreviewViewModel.kt
+│       └── analysis
+│           ├── BoatAnalysisFragment.kt
+│           └── BoatAnalysisViewModel.kt
+└── util
+    ├── BluetoothUtils.kt
+    └── Event.kt
